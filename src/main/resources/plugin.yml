@@ -1,0 +1,37 @@
+name: DontPickupItems
+version: '1.1.1'
+main: me.dabsi_xx.Dontpickupitems
+api-version: 1.19
+commands:
+  dontpickupitems:
+    description: Main command
+    aliases: [dpi]
+permissions:
+  dpi.*:
+    description: All Permissions
+    children:
+      - dpi.drop
+      - dpi.move
+      - dpi.rename
+      - dpi.pickup
+  dpi.pickup:
+    description: Allows user to pick up items
+    default: op
+  dpi.move:
+    description: Allows user to move items
+    default: op
+  dpi.drop:
+    description: Allows user to drop items
+    default: op
+  dpi.add:
+    description: Allows the user to add an item to the blacklist
+    default: op
+  dpi.rename:
+    description: Allows the user to rename an item
+    default: op
+  dpi.reload:
+    description: Allows user to reload config
+    default: op
+  dpi.switch:
+    description: Allows the user to switch config
+    default: op

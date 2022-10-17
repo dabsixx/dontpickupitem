@@ -1,0 +1,11 @@
+#Blocks the user from picking up items from the ground.
+BlockPickup: true
+
+#Blocks the user from moving the item in an inventory.
+BlockMovement: true
+
+#Blocks the user from dropping the item.
+BlockDrop: false
+
+#Blocks the user from renaming the item in an anvil.
+BlockRename: true

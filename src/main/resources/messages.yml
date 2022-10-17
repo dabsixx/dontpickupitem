@@ -1,0 +1,21 @@
+Prefix: "&b&l[Don't Pickup Items]&r"
+
+NoArgs: "&cYou hadn't provided any arguments!"
+NoPermission: "&cYou don't have permission to use this command!"
+
+AddSuccess: "&3Successfully added the item &r%item% &3to the config!"
+AddExisting: "&cThe item &r%item% &calready exists in the config!"
+
+ReloadSuccess: "&3The file &r%file% &3has been reloaded!"
+ReloadSuccessAll: "&3All files reloaded!"
+ReloadFailure: "&cThere was an error reloading!"
+
+SwitchSuccess: "&3The config &r%config% &3is now set to: &b%status%"
+SwitchFailure: "&cThere was an error switching the config!"
+
+CantPickup: "&cYou can't pick up the item &r%item%&c!"
+CantDrop: "&cYou can't drop the item &r%item%&c!"
+CantMove: "&cYou can't move the item &r%item%&c!"
+CantRename: "&cYou can't rename the item &r%item%&c!"
+
+Usage: "&3Usage:"

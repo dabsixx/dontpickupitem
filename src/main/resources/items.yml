@@ -1,0 +1,4 @@
+#Items that can be picked up with the permission dpi.pickup
+items:
+  - item1
+  - item2
